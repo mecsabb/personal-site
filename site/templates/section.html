@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+{% block content %}
+  <article>
+    {{ section.content | safe }}
+  </article>
+
+  {% if section.pages %}
+  <div class="projects-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink }}" class="project-card">
+      <div class="project-card-content">
+        <h2 class="project-title">{{ page.title }}</h2>
+        <time class="project-date">{{ page.date | date(format="%B %Y") }}</time>
+        <p class="project-description">{{ page.description | default(value="No description available") }}</p>
+        {% if page.extra.tags %}
+        <div class="project-tags">
+          {% for tag in page.extra.tags %}
+          <span class="project-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endblock content %}

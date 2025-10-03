@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="{{ get_url(path='css/bamboo.css') }}">
+
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="/">M</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/" {% if current_path == "/" %}class="active"{% endif %}>About</a></li>
+            <li><a href="/work" {% if current_path is starting_with("/work") %}class="active"{% endif %}>Work</a></li>
+            <li><a href="/misc" {% if current_path is starting_with("/misc") %}class="active"{% endif %}>Misc</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      {% block content %}
+        <!-- Worms simulation -->
+        <div class="worms-container">
+          <canvas id="worms-canvas"></canvas>
+        </div>
+        
+        <article>
+          {{ section.content | safe }}
+        </article>
+      {% endblock content %}
+    </main>
+    
+    <script type="module" src="{{ get_url(path='worms.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% block content %}
+  <article>
+
+    <div class="page-header">
+      <h3>{{ page.title }}</h3>
+      {% if page.date %}
+      <time class="page-date">{{ page.date | date(format="%B %d, %Y") }}</time>
+      {% endif %}
+    </div>
+
+    <div class="page-content">
+      {{ page.content | safe }}
+    </div>
+
+    <nav class="page-navigation">
+      <a href="{{ config.base_url }}" class="nav-link">← Back to Home</a>
+      <a href="{{ config.base_url }}work/" class="nav-link">← Back to Work</a>
+    </nav>
+  </article>
+{% endblock content %}
