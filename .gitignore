@@ -1,0 +1,12 @@
+# Zola build output
+site/public/
+
+# Rust build artifacts
+wasim/target/
+
+# WASM build output (files are copied to site/static/)
+wasim/pkg/
+
+# OS files
+.DS_Store
+

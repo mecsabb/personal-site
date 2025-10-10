@@ -3,11 +3,9 @@
    I reformatted it for readability and ended up messing with it a bit.
    ======================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=PP+Neue+Montreal:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 /* CSS Custom Properties (Variables) */
 :root {
-  --b-font-main: 'PP Neue Montreal', system-ui, sans-serif;
+  --b-font-main: 'Iowan Old Style', system-ui, sans-serif;
   --b-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --b-txt: #2e3440;
   --b-bg-1: #fff;
