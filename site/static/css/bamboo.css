@@ -15,7 +15,7 @@
   --b-bg-1: #fff;
   --b-bg-2: #eceff4;
   --b-line: #eceff4;
-  --b-link: #0066cc;
+  --b-link: #6b7280;
   --b-btn-bg: #242933;
   --b-btn-txt: #fff;
   --b-focus: #88c0d0;
@@ -472,7 +472,7 @@ header nav a {
 
 header nav a:hover {
   text-decoration: none !important;
-  color: #0066cc;
+  color: #6b7280;
 }
 
 header nav a:focus {
@@ -488,7 +488,7 @@ header nav a.active::after {
   transform: translateX(-50%);
   width: 6px;
   height: 6px;
-  background-color: #0066cc;
+  background-color: #6b7280;
   border-radius: 50%;
 }
 
@@ -539,7 +539,7 @@ header nav a.active::after {
 }
 
 .timeline-item:hover .timeline-marker {
-  background: #0066cc;
+  background: #6b7280;
 }
 
 .timeline-content {
@@ -555,7 +555,7 @@ header nav a.active::after {
 
 .timeline-link:hover .project-title {
   text-decoration: underline;
-  text-decoration-color: #0066cc;
+  text-decoration-color: #6b7280;
 }
 
 .project-title {
@@ -566,7 +566,7 @@ header nav a.active::after {
 }
 
 .project-date {
-  color: #0066cc;
+  color: #6b7280;
   font-size: .875rem;
   margin: 0;
   display: block;
@@ -612,7 +612,7 @@ header nav a.active::after {
 }
 
 .page-date {
-  color: #0066cc;
+  color: #6b7280;
   font-size: 1rem;
   margin: 0;
 }
@@ -683,7 +683,7 @@ header nav a.active::after {
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
-  color: #0066cc;
+  color: #6b7280;
 }
 
 .page-tags {
