@@ -8,4 +8,4 @@ I am a student, developer and researcher. I am in my last year of **Mathematics 
 
 Most of my work has been with **Python and C++**. Recently I have been working on my full-stack **JavaScript** skills and web-design. 
 
-Outside of work I enjoy listening to music, watching movies, working out, and playing squash. I also like learning new technologies (the grid above is a WASM cellular automata simulation).
+Outside of work I enjoy listening to music, watching movies, working out, and playing squash. I also like learning new technologies (the grid above is a tiny Rust-based WASM package I wrote for cellular automata).
