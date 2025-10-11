@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://localhost:1111/"
+base_url = "https://mecsabb.github.io"
 
 title = "Mitchell Sabbadini"
 
