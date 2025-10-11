@@ -12,13 +12,13 @@
     <header>
       <div class="header-container">
         <div class="logo">
-          <a href="/">M</a>
+          <a href="{{ config.base_url }}">M</a>
         </div>
         <nav>
           <ul>
-            <li><a href="/" {% if current_path == "/" %}class="active"{% endif %}>About</a></li>
-            <li><a href="/work" {% if current_path is starting_with("/work") %}class="active"{% endif %}>Work</a></li>
-            <li><a href="/misc" {% if current_path is starting_with("/misc") %}class="active"{% endif %}>Misc</a></li>
+            <li><a href="{{ config.base_url }}" {% if current_path == "/" %}class="active"{% endif %}>About</a></li>
+            <li><a href="{{ config.base_url }}work/" {% if current_path is starting_with("/work") %}class="active"{% endif %}>Work</a></li>
+            <li><a href="{{ config.base_url }}misc/" {% if current_path is starting_with("/misc") %}class="active"{% endif %}>Misc</a></li>
           </ul>
         </nav>
       </div>
