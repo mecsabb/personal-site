@@ -2,6 +2,8 @@
 title = "Misc"
 +++
 
-### ***Under Construction***
+### Miscellaneous
 
-This section will contain miscellaneous content, thoughts, and random projects. Coming soon!
+This section will contain unstructured content, things I like, random thoughts, and maybe some tiny projects. Still under construction and coming soon! For now, here's some albums I've been listening to recently.
+
+---

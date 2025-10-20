@@ -4,6 +4,46 @@
     {{ section.content | safe }}
   </article>
 
+  {% if section.title == "Misc" %}
+  <!-- Album Grid Section -->
+  <section class="album-grid-section">
+    <div class="album-grid">
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/lonesome-crowded-west.jpg') }}" alt="Album cover">
+        <p class="album-caption">Modest Mouse - The Lonesome Crowded West</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/bcnr-first.jpg') }}" alt="Album cover">
+        <p class="album-caption">Black Country, New Road - For the First Time</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/sound-of-silver.jpg') }}" alt="Album cover">
+        <p class="album-caption">LCD Soundsystem - Sound of Silver</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/syro.jpg') }}" alt="Album cover">
+        <p class="album-caption">Aphex Twin - Syro</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/alive-07.jpg') }}" alt="Album cover">
+        <p class="album-caption">Daft Punk - Alive 2007</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/apostrophe.jpg') }}" alt="Album cover">
+        <p class="album-caption">Frank Zappa - Apostrophe</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/soul-food.jpg') }}" alt="Album cover">
+        <p class="album-caption">Goodie Mob - Soul Food</p>
+      </div>
+      <div class="album-item">
+        <img src="{{ get_url(path='albums/songs-in-the-key.jpg') }}" alt="Album cover">
+        <p class="album-caption">Stevie Wonder - Songs in the Key of Life</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if section.pages %}
   <div class="timeline">
     {% for page in section.pages %}
