@@ -1,6 +1,7 @@
 +++
 title = "Reinforcement Learning for Cryptocurrency Arbitrage"
 date = 2023-09-01
+end_date = 2024-04-01
 description = "My 2023 QMIND project; building DeepMind's Alpha Zero from scratch and training it for currency arbitrage."
 tags = ["Python", "Machine Learning", "Project Management"]
 +++

@@ -5,7 +5,11 @@
     <div class="page-header">
       <h3>{{ page.title }}</h3>
       {% if page.date %}
-      <time class="page-date">{{ page.date | date(format="%B %d, %Y") }}</time>
+      <time class="page-date">
+        {{ page.date | date(format="%B %Y")}} - 
+        {% if page.extra.end_date %}{{ page.extra.end_date | date(format="%B %Y")}}
+        {% else %}Present{% endif %}
+      </time>
       {% endif %}
     </div>
 

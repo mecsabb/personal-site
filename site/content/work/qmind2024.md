@@ -1,6 +1,7 @@
 +++
 title = "Mechanistic Interpretability for LLM Jailbreak Defense"
 date = 2024-05-01
+end_date = 2025-04-01
 description = "My 2024 QMIND project; trying to apply mech interp to a big problem in AI."
 tags = ["Python", "Machine Learning", "Project Management"]
 +++

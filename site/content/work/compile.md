@@ -1,8 +1,10 @@
 +++
 title = "Compile: Personalized AI News"
-date = 2025-01-15
+date = 2025-01-01
 description = "An AI-powered news and media aggregator that curates articles based on user preferences and interests."
 tags = ["React", "Node.js", "PostgreSQL", "Full-stack"]
+
+[extra]
 +++
 
 Compile is an AI-powered news and media aggregator that curates articles based on user preferences and interests. It's pretty full of features and is something I had a lot of fun building with two of my friends. *At a glance we...*
