@@ -617,7 +617,7 @@ header nav a.active::after {
 }
 
 .page-date {
-  color: #0066cc;
+  color: #5a606b;
   font-size: 1rem;
   margin: 0;
 }
@@ -795,11 +795,4 @@ header nav a.active::after {
   margin: 0;
   text-align: center;
   line-height: 1.2;
-}
-
-/* Mobile: 2 columns x 4 rows */
-@media (max-width: 768px) {
-  .album-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
